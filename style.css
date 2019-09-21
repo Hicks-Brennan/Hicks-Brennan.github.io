@@ -6,7 +6,7 @@
 
 #center {
     text-align: center;
-    background-color: red;
+    background-color:#00daff;
     border-radius: 10px;
     padding: 0.5em;
     margin: 25px;
@@ -20,7 +20,7 @@
 }
 
 header {
-    background-color: red;
+    background-color: #00daff;
     border-radius: 10px;
     margin: 25px;
 }
