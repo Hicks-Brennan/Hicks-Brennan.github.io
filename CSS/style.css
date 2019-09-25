@@ -4,6 +4,10 @@
     margin: auto;
 }
 
+h1 {
+    font-family: 'Big Shoulders Text', cursive;
+}
+
 #center {
     text-align: center;
     background-color:#00daff;
