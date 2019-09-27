@@ -16,6 +16,9 @@ h1 {
     margin: 25px;
 }
 
+ul{
+    list-style-type:none;
+}
 #profile {
     position: relative;
     float: right;
