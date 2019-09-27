@@ -1,3 +1,7 @@
+html { 
+    font-family: 'Big Shoulders Text', cursive;
+}
+
 #assignments {
     text-align: center;
     border-radius: 10px;
@@ -5,7 +9,16 @@
 }
 
 h1 {
-    font-family: 'Big Shoulders Text', cursive;
+    margin-right: 5em;
+   
+}
+
+ul {
+    list-style-type:none;
+}
+
+h2 {
+    margin-left: 3em;
 }
 
 #center {
@@ -16,9 +29,6 @@ h1 {
     margin: 25px;
 }
 
-ul{
-    list-style-type:none;
-}
 #profile {
     position: relative;
     float: right;
