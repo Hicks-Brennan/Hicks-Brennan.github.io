@@ -1,5 +1,10 @@
 @media only screen and (min-width:32.5em) and (max-width: 60em) {
 
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     h1 {
         font-size: 2.5em;
     }
