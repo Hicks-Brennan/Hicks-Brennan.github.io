@@ -9,7 +9,8 @@
         font-size: 2.5em;
     }
 
-
-
+    article:nth-child(3) {
+        grid-column:span 2
+    }
 
 }
