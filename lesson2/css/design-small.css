@@ -1,5 +1,9 @@
-h1 {
+header {
     background-color: #00daff;
     border-radius: 10px;
     font-size: 1.5em;
+}
+
+.design-title {
+    font-size: 1em;
 }
