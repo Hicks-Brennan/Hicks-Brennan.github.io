@@ -32,6 +32,10 @@ img {
     font-size: 1.25em;
 }
 
+.info {
+    padding: 15px;
+}
+
 footer {
     background-color:#69b5c1;
     border-radius: 10px;
