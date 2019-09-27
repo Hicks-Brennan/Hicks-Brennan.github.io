@@ -12,3 +12,7 @@ header {
 .design-title {
     font-size: 1em;
 }
+
+article {
+    margin: 10px;
+}
