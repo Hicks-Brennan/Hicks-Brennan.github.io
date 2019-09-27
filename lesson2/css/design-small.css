@@ -1,3 +1,6 @@
+body {
+    margin: auto;
+}
 header {
     background-color: #00daff;
     border-radius: 10px;
