@@ -1,6 +1,8 @@
 body {
     margin: auto;
+    text-align: center;
 }
+
 header {
     background-color: #00daff;
     border-radius: 10px;
