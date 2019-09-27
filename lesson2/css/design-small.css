@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #00daff;
+    background-color: #69b5c1;
     border-radius: 10px;
     font-size: 1.5em;
 }
@@ -15,4 +15,10 @@ header {
 
 article {
     margin: 10px;
+    border-radius: 10px;
+    background-color: #dad5d5;
+}
+
+img {
+    width: 200px;
 }
