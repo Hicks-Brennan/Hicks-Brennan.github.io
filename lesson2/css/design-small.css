@@ -31,3 +31,10 @@ img {
     margin: auto;
     font-size: 1.25em;
 }
+
+footer {
+    background-color:#69b5c1;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 25px;
+}
