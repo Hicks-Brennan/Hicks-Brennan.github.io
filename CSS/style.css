@@ -1,9 +1,5 @@
-body {
-    max-width: 1200px;
-}
-
-#assignements {
-    text-align: right;
+#assignments {
+    text-align: center;
     border-radius: 10px;
     margin: auto;
 }
@@ -21,8 +17,10 @@ h1 {
 }
 
 #profile {
+    position: relative;
     float: right;
     width: 200px;
+    top: -80px;
 }
 
 header {
