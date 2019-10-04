@@ -12,19 +12,18 @@ header img {
 
 header,
   footer {
-  background: #add9e4;
+  background: #7c8483;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  font-family: 'Playfair Display', serif;
   font-size: 1rem;
   box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
   margin: 1rem auto;
 }
 header{
-    color: #ff8000;
+    color: #982649;
 }
 
 header,
@@ -40,13 +39,13 @@ h1 {
 }
 
 h2 {
-  color: #ff8000;
+  color: #53f4ff;
     text-align: center;
 
 }
 
 nav {
-  background-color: #2F4F4F;
+  background-color: #60b2e5;
   text-align: center;
   box-shadow: 0 2px 5px grey;
     font-family: 'Playfair Display', serif;  
@@ -65,13 +64,13 @@ nav li a {
   padding: 0.75rem;
   text-decoration: none;
   font-size: 1rem;
-    color: #abfaff;
+    color: #982649;
 
 }
 
 nav a:hover {
-  background-color: #f28600;
-  color: #FFFFFF;
+  background-color: #982649;
+  color: #53f4ff;
 }
 
 .active {
@@ -95,6 +94,7 @@ main article {
 
 }
 main img {
+  max-width: 767px;
   display: flex;
   margin: 1rem;
     vertical-align: center;
@@ -119,7 +119,7 @@ footer {
               display: grid;
               /* grid-template-columns: repeat(5, 1fr); */
               grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-      text-align: center;
+              text-align: center;
           }
 
   /* Inline-Block             */
@@ -164,7 +164,6 @@ main {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-    font-family: 'Playfair Display', serif;  
+  padding: 10px; 
 }
 }
