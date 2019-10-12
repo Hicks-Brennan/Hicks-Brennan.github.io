@@ -48,7 +48,6 @@ nav {
   background-color: #60b2e5;
   text-align: center;
   box-shadow: 0 2px 5px grey;
-    font-family: 'Playfair Display', serif;  
 }
 
 nav ul {
@@ -72,11 +71,6 @@ nav a:hover {
   background-color: #982649;
   color: #53f4ff;
 }
-
-.active {
-  color: white;  
-}
-
 main {
   display: grid;
   grid-template-columns: 1fr;
