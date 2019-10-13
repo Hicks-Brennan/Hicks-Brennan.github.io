@@ -57,6 +57,16 @@ nav ul {
   overflow: hidden;
 }
 
+.navList:first-child {
+  display: block;
+  
+}
+
+.responsive li {
+  display: block;
+
+}
+
 nav li a {
   display: block;
   text-align: center;
