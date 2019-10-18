@@ -1,13 +1,14 @@
 @media only screen and ( min-width: 32.5em ){
 
-nav {
+.navList {
     display: flex;
 }
-nav li:first-child {
+
+.navList li:first-child {
     display: none;
 }
  
-nav li {
+.navList li {
     display: block;
     flex: 1 1 100%;
 }
