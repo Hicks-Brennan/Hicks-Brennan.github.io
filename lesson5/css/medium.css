@@ -1,0 +1,18 @@
+@media only screen and ( min-width: 32.5em ){
+
+.navList {
+    display: flex;
+}
+
+.navList li:first-child {
+    display: none;
+}
+ 
+.navList li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+
+    
+}
