@@ -57,15 +57,13 @@ nav ul {
   overflow: hidden;
 }
 
-.navList:first-child {
+.navList li:first-child {
   display: block; 
 }
 
 .navList li {
   display: none;
 }
-
-
 
 nav li a {
   display: block;
