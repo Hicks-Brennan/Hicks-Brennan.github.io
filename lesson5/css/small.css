@@ -84,6 +84,34 @@ nav a:hover {
   display: block;
 
 }
+
+.five-day {
+  display:none;
+}
+
+.herodiv {
+  position: relative;
+}
+
+.herodiv img {
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.weathersummary {
+  position:absolute;
+  border-style: solid;
+  top: 40px;
+  left: 30px;
+  background-color: #982649;
+  font-size: 1rem;
+  padding: .75em;
+  margin: auto;
+  box-shadow: 0 0 30px;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr;
