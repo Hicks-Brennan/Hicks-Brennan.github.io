@@ -105,7 +105,7 @@ nav a:hover {
   border-style: solid;
   top: 40px;
   left: 30px;
-  background-color: #982649;
+  background-color: rgba(147, 55, 84, .8);
   font-size: 1rem;
   padding: .75em;
   margin: auto;
