@@ -58,14 +58,14 @@ nav ul {
 }
 
 .navList:first-child {
-  display: block;
-  
+  display: block; 
 }
 
-.responsive li {
-  display: block;
-
+.navList li {
+  display: none;
 }
+
+
 
 nav li a {
   display: block;
@@ -80,6 +80,11 @@ nav li a {
 nav a:hover {
   background-color: #982649;
   color: #53f4ff;
+}
+
+.responsive li {
+  display: block;
+
 }
 main {
   display: grid;
