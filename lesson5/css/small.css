@@ -135,6 +135,20 @@ main img {
     vertical-align: center;
 }
 
+.article {
+  background-color: #53f4ff;
+}
+
+.article img {
+  display: none;
+
+}
+
+.contact {
+  background-color: #7c8483;
+}
+
+
 footer {
   flex: 0 1 100%;
   height: 3rem;
