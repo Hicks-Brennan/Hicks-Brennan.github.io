@@ -22,4 +22,12 @@
     margin: 0 auto;
 }
     
+.contact img {
+    display: flex;
+    width: 65%;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 }

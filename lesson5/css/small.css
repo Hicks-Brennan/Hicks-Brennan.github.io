@@ -148,6 +148,10 @@ main img {
   background-color: #7c8483;
 }
 
+.contact img {
+  display: none;
+}
+
 
 footer {
   flex: 0 1 100%;
