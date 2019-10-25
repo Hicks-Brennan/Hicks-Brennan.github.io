@@ -17,11 +17,12 @@
     display:block;
 }
 
+
+
 .article img {
-    float: right;
-    width: 450px;;
+    display: flex;
+    width: 75%;
     margin: 20px;
-    padding: 20px;
 }
     
 .contact img {
