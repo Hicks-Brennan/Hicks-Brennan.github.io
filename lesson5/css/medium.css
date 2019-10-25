@@ -18,7 +18,7 @@
 }
 
 .article img {
-    display: flex;
+    float: right;
     width: 75%;
     margin: 0 auto;
 }
