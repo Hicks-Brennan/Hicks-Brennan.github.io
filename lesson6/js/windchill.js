@@ -1,15 +1,15 @@
-function getwindChill() {
+var tempF = parseFloat(document.getElementsByClassName("high").textContent);
+var speed = parseFloat(document.getElementsByClassName("wind").textContent);
+var chill = windChill(tempF, speed);
 
-    var high = document.getElementById('high').innerHTML;
-    var wind = document.getElementById('wind').innerHTML;
-    var wchill = windChill(high, wind);
-    
-    document.getElementById('chill').innerHTML = wchill;
+function windChill(tempF, speed) {
+    if (tempF > 50){
+        return "N/A";
+    } else if (speed < 3){
+        return "N/A";
+    } else {
+    return 35.74 + (0.6215 * tempF) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempF * Math.pow(speed, 0.16));
+  }
 }
 
-function windChill(high, wind){
-    var t = high;
-    var s = wind;
-    var wchill = (35.74 + .6215 * t) - (35.75 * Math.pow(s, .16) + .4275 * t * Math.pow(s, .16));
-    return wchill;
-}   
+document.getElementById('outputDiv').innerHTML = chill;
