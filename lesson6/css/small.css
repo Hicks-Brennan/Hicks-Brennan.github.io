@@ -134,6 +134,9 @@ main img {
   margin: 1rem;
     vertical-align: center;
 }
+.article img {
+  max-width: 1em;
+}
 
 .article {
   background-color: #53f4ff;
