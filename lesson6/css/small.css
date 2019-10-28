@@ -134,8 +134,10 @@ main img {
   margin: 1rem;
     vertical-align: center;
 }
+
 .article img {
-  max-width: 1em;
+  position: relative;
+  max-width: 30%;
 }
 
 .article {
