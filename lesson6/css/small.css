@@ -10,6 +10,12 @@ header img {
 
   }
 
+header div {
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+}
+
 header,
   footer {
   background: #7c8483;
