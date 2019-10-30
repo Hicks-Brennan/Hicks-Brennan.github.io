@@ -25,6 +25,8 @@ footer {
     position: absolute;
     top: 40px;
     right: 40px;
+    color: red;
+    font-size: 2em;
 }
 
 #textMedium {
