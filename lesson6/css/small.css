@@ -11,6 +11,16 @@ header img {
 
   }
 
+  #textSmall {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  #textMedium, #textLarge {
+    display: none;
+  }
+
 header div {
   display: inline-block;
   margin: auto;

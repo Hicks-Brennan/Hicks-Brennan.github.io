@@ -31,4 +31,14 @@
     margin-right: auto;
 
 }
+#textMedium{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  #textSmall {
+    display: none;
+  }
 }

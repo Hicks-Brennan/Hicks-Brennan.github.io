@@ -20,6 +20,16 @@ footer {
     width: 85%;
 }
 
+#textLarge {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+#textMedium {
+    display: none;
+}
 
 
 
