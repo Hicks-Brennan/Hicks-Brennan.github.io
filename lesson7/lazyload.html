@@ -4,20 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Lazy Load webpage">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="Photos/favicon.ico">
         <link rel="stylesheet" href="../CSS/normalize.css">
-        <link rel="stylesheet" src="lazyload.css">
+        <link rel="stylesheet" href="css/lazyload.css">
 </head>
 <body>
-    <h1>Progressive Image Loading</h1>
-    <picture></picture>
-    <picture></picture>
-    <picture></picture>
-    <picture></picture>
-    <picture></picture>
-    <picture></picture>
+    <header>
+        <div>
+            <h1>Progressive Image Loading</h1>
+        </div>
+    </header>
+    <main>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/bird.jpg" alt="bird">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/cat.jpg" alt="cat">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/garden.jpg" alt="garden">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/hallway.jpg" alt="hospital hallway">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/mountain.jpg" alt="mountain">
+        </picture>
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/spooky.jpg" alt="spooky">
+        </picture>
+    </main>
 
 
-    <script src="lazyload.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 </html>

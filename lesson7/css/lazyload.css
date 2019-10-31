@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+main img[data-src] {
+    filter: blur(0.2em);
+}
