@@ -3,7 +3,7 @@ header {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: sans-serif;
 }
 
 main {
@@ -12,9 +12,9 @@ main {
 
 main img[data-src] {
     filter: blur(0.2em);
-}
-
+  }
+  
 main img {
     filter: blur(0em);
     transition: filter 0.5s;
-}
+  }
