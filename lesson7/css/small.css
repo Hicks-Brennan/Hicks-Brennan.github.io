@@ -8,6 +8,7 @@ header img {
     border-radius: 0 5px 0 5px;
    box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
    float: left;
+   grid-column: 1/2;
 
   }
 
@@ -27,6 +28,7 @@ header div {
   display: inline-block;
   margin: auto;
   vertical-align: middle;
+  grid-column: 2/3;
 }
 
 header,
@@ -42,6 +44,8 @@ header,
   margin: 1rem auto;
 }
 header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
     color: #982649;
 }
 
