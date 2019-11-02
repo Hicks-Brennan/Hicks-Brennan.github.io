@@ -34,16 +34,16 @@ background: #7c8483;
 }
 
 footer {
-background: #7c8483;
-display: flex;
-flex-flow: column;
-align-items: center;
-justify-content: center;
-padding: 10px;
-font-size: 1rem;
-box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
-margin: 1rem auto;
-}
+  background: #7c8483;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0 auto;
+  }
+
 header{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
