@@ -1,5 +1,17 @@
 @media only screen and (min-width: 60em) {
 
+.article img {
+    width: 95%;
+    padding: 0px;
+    float: right;
+}
+
+.contact img {
+    float: left;
+    width: 400px;
+    padding: 20px;
+    margin: 0px;
+}
 
 footer {
     text-align: center;
