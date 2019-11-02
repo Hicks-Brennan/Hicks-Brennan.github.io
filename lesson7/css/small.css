@@ -50,8 +50,7 @@ grid-template-columns: repeat(2, 1fr);
   color: #982649;
 }
 
-main,
-footer {
+main {
 max-width: 767px;
 margin: 0 auto;
 }
