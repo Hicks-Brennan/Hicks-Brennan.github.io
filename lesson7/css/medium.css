@@ -1,0 +1,46 @@
+@media only screen and ( min-width: 32.5em ){
+
+.navList {
+    display: flex;
+}
+
+.navList li:first-child {
+    display: none;
+}
+ 
+.navList li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+.five-day{
+    display:block;
+}
+
+.article img {
+    float: right;
+    width: 75%;
+    margin: 0 auto;
+}
+    
+.contact img {
+    display: flex;
+    width: 65%;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#textMedium{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: red;
+    font-size: 2em;
+  }
+
+  #textSmall {
+    display: none;
+  }
+}
