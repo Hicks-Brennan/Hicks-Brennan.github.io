@@ -163,6 +163,14 @@ main img {
     vertical-align: center;
 }
 
+.grid1 {
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .article img {
   position: relative;
   max-width: 30%;
