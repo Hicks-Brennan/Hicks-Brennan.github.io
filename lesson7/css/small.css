@@ -74,11 +74,13 @@ margin: 0 auto;
 }
 
 nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-}
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  max-width:767px;
+  
+  }
 
 .navList li:first-child {
 display: block; 
