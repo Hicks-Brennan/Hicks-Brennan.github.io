@@ -168,6 +168,8 @@ align-items: center;
 width: 100%;
 display: grid;
 grid-template-columns: 1fr;
+font-family: 'Raleway', sans-serif;
+font-size: 1em;
 }
 
 #grid div img:hover {
