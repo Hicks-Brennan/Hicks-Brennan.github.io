@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+main img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
