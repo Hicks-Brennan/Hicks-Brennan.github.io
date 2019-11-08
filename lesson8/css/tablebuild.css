@@ -1,15 +1,11 @@
 table {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
-    border-style: style;
-    border-width: thin;
-    border-spacing:0;
+    border: 1px solid #bbbbbb;
 }
 td {
     padding: 10px;
-    border-style: style;
-    border-width: thin;
-    border-spacing:0;
+    border: 1px solid #bbbbbb;
 }
 .theader  {
     background-color: #7fb9c2;
