@@ -5,6 +5,7 @@ table {
 
 .theader {
     background-color: #7fb9c2;
+    font-size: 2em;
 
 }
 
@@ -16,6 +17,7 @@ table {
 
 }
 .secondRow {
+    color: white;
     background-color: #628ca6;
     
 }
