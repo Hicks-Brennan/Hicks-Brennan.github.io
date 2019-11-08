@@ -3,7 +3,7 @@ table {
     text-align: center;
 }
 
-.theader {
+.theader, .metGoal {
     background-color: #7fb9c2;
     font-size: 2em;
 
@@ -22,7 +22,7 @@ table {
     
 }
 
-
+.metGoal
 .grey {
     background-color:  #e7f0ed;
 }
