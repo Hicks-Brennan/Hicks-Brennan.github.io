@@ -1,6 +1,14 @@
 table {
     font-family: "Ubuntu", sans-serif;
     text-align: center;
+    border-style: style;
+    border-width: thin;
+    border-spacing:0;
+}
+td {
+    border-style: style;
+    border-width: thin;
+    border-spacing:0;
 }
 .theader  {
     background-color: #7fb9c2;
@@ -10,7 +18,7 @@ table {
 .footer {
     background-color: #7fb9c2;
     font-size: .5em;
-    
+
 
 } 
 .secondRow, .metGoal {
