@@ -6,6 +6,7 @@ table {
     border-spacing:0;
 }
 td {
+    padding: 10px;
     border-style: style;
     border-width: thin;
     border-spacing:0;
@@ -17,7 +18,7 @@ td {
 }
 .footer {
     background-color: #7fb9c2;
-    font-size: .5em;
+    font-size: 0.5em;
 
 
 } 
