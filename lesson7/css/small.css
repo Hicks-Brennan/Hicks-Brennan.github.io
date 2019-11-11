@@ -172,9 +172,7 @@ font-family: 'Raleway', sans-serif;
 font-size: 1em;
 }
 
-#grid div img:hover {
-  box-shadow: 0 0 0px black;
-}
+
 
 #grid div:hover {
   box-shadow: 0 0 10px #333333;
