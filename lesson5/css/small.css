@@ -2,6 +2,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.navList .active {
+color: black;
+}
+
 header img {
     max-width: 100px;
     margin: 15px;
