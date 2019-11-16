@@ -149,11 +149,10 @@ main img {
 
 .contact img {
   display: none;
-}
-
-
-footer {
+  }
+  
+  
+  footer {
   flex: 0 1 100%;
-  height: 3rem;
-
-}
+  
+  }
