@@ -20,7 +20,7 @@ fetch(requestURL)
         let annualrain = document.createElement('p');
         let townpic = document.createElement('img');
         
-        card.className = 'towncard';
+        card.className = 'towndata';
         block.classname = 'textblock';
         townmotto.className = 'motto';
         

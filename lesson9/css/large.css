@@ -52,7 +52,7 @@ footer {
   #center {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      justify-content: center;
+      justify-content: space-between;
       align-content: center;
       width: 100%;
   }
