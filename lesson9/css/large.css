@@ -41,7 +41,21 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  #grid div img:hover {
+    box-shadow: 0 0 0px black;
+  }
+  
+  #grid div:hover {
+    box-shadow: 0 0 10px #333333;
+  }
 
+  #center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+  }
 
 
     
