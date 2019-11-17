@@ -46,6 +46,14 @@ footer {
     box-shadow: 0 0 0px black;
   }
 
+  #center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
 
 
     
