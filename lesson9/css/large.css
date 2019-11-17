@@ -53,6 +53,31 @@ footer {
       width: 100%;
   }
 
+  .towndata {
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.towndata img {
+width: 100%;
+float: none;
+}
+
+.towndata div {
+width: 100%;
+float: none;
+padding-bottom: 25px;
+}
+
+section.towndata:nth-of-type(3) img {
+width: 100%;
+float: none;
+}
+
+section.towndata:nth-of-type(3) div {
+width: 100%;
+    float: none;
+    padding-bottom: 10px;
+}
 
     
 }

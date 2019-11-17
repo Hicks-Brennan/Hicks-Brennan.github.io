@@ -47,4 +47,32 @@
   #textSmall {
     display: none;
   }
+
+  .towndata {
+    grid-template-columns: 1fr;
+}
+
+.towndata img {
+width: 50%;
+float: left;
+margin: auto;
+}
+
+.towndata div {
+width: 50%;
+float: right;
+margin: auto;
+}
+
+section.towndata:nth-of-type(3) img {
+width: 50%;
+float: right;
+margin: auto;
+}
+
+section.towndata:nth-of-type(3) div {
+width: 50%;
+float: left;
+margin: auto;
+}
 }
