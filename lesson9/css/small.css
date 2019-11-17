@@ -163,6 +163,11 @@ margin: 1rem;
 background-color: #53f4ff;
 }
 
+.article img {
+  max-width: 50%;
+  padding: 15px;
+}
+
 .contact {
 background-color: #7c8483;
 }

@@ -17,11 +17,7 @@
     display:block;
 }
 
-.article img {
-    float: right;
-    width: 75%;
-    margin: 0 auto;
-}
+
     
 .contact img {
     display: flex;
