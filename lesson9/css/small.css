@@ -216,3 +216,25 @@ flex: 0 1 100%;
   color: #4d585b;
   padding: 20px;
 }
+
+section.towncard:nth-of-type(1) {
+  order: 3;
+}
+
+.motto {
+  font-size: .8rem;
+}
+
+
+#outputDiv {
+  display: inline-block;
+}
+
+#townpic {
+  overflow: hidden;
+  width: 100%;
+}
+
+#townpic img {
+  max-width: 100%;
+}
