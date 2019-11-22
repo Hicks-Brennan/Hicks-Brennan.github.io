@@ -139,6 +139,11 @@ margin: auto;
 box-shadow: 0 0 30px;
 }
 
+#friday {
+  background-color: #60b2e5;
+  margin: auto;
+  
+}
 
 main article {
 margin: .75rem;
