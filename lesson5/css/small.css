@@ -151,6 +151,12 @@ main img {
   display: none;
   }
   
+  #friday {
+    background-color: #60b2e5;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin: auto;
+  }
   
   footer {
   flex: 0 1 100%;
