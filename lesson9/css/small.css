@@ -141,9 +141,11 @@ box-shadow: 0 0 30px;
 
 #friday {
   background-color: #60b2e5;
+  grid-column-start: 1;
+  grid-column-end: -1;
   margin: auto;
-  width: 100%;
 }
+
 
 main article {
 margin: .75rem;
