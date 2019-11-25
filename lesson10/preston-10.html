@@ -39,36 +39,53 @@
                     <img src="images/idaho-landscape-mountains-1694642.jpg">
                     <section class="weathersummary">
                             <h3><u>Weather Summary</u></h3>
-                            <p>Current: <span class="degrees">Sunny</span></p>
-                            <p>High: <span class="high">45</span></p>
+                            <p>Current: <span id="current">Sunny</span></p>
+                            <p>Temperature: <span id="temperature">45</span></p>
                             <p>Wind Chill: </p><div id="outputDiv"></div>
-                            <p>Humidity: <span class="degrees">15%</span></p>
-                            <p>Wind Speed: <span class="wind">5 mph</span></p>
+                            <p>Humidity: <span id="humidity">15%</span></p>
+                            <p>Wind Speed: <span id="wind">5 mph</span></p>
                         </section>
 
                     <div class="five-day">
                         <table>
                             <thead>
                                 <tr>
-                                        <th>Sat</th>
-                                        <th>Sun</th>
-                                        <th>Mon</th>
-                                        <th>Tues</th>
-                                        <th>Wed</th>
+                                        <th class="days">
+                                            <span id="weekday1">Sat</span></th>
+                                        <th class="days">
+                                            <span id="weekday2">Sun</span>
+                                        </th>
+                                        <th c;ass="days">
+                                            <span id="weekday3">Mon</span>    
+                                        </th>
+                                        <th class="days">
+                                            <span id="weekday4">Tues</span>
+                                        </th>
+                                        <th class="days">
+                                            <span id="day5">Wed</span>
+                                        </th>
                                 </tr>
                                 <tr>
-                                    <td><img src="images/partly_cloudy.png"></td>
-                                    <td><img src="images/rain.png"></td>
-                                    <td><img src="images/sun.png"></td>
-                                    <td><img src="images/partly_cloudy.png"></td>
-                                    <td><img src="images/sun.png"></td>
-                                </tr>
-                                <tr>
-                                    <td>55 &#8457;</td>
-                                    <td>48 &#8457;</td>
-                                    <td>65 &#8457;</td>
-                                    <td>50 &#8457;</td>
-                                    <td>70 &#8457;</td>
+                                    <td>
+                                        <img id="day1" src="images/partly_cloudy.png" alt="cloudy icon">
+                                        <span id="day1temp">55</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day2"src="images/rain.png" alt="rain icon">
+                                        <span id="day2temp">48</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day3" src="images/sun.png" alt="sun icon">
+                                        <span id="day3temp">65</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day4" src="images/partly_cloudy.png" alt="partly cloudy">
+                                        <span id="day4temp">50</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day5" src="images/sun.png" alt="sun icon">
+                                        <span id="day5temp">70</span>"° F"
+                                    </td>
                                 </tr>
                             </thead>
                         </table>
@@ -106,6 +123,6 @@
         
                         </footer>
         <script src="js/java.js"></script>
-        <script src="js/windchill.js"></script>
+        <script src="js/weatherAPI.js"></script>
     </body>
     </html>
