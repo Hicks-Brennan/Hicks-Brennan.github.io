@@ -73,8 +73,8 @@ fetch(apiURLforecast)
     var thr = weekday[d.getDay() + 3];
     var fou = weekday[d.getDay() + 4];
     var fiv = weekday[d.getDay() + 5];
-    document.getElementById("wday1").textContent = one;
-    document.getElementById("wday2").textContent = two;
-    document.getElementById("wday3").textContent = thr;
-    document.getElementById("wday4").textContent = fou;
-    document.getElementById("wday5").textContent = fiv;
+    document.getElementById("weekday1").textContent = one;
+    document.getElementById("weekday2").textContent = two;
+    document.getElementById("weekday3").textContent = thr;
+    document.getElementById("weekday4").textContent = fou;
+    document.getElementById("weekday5").textContent = fiv;
