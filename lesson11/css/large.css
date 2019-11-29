@@ -1,54 +1,83 @@
 @media only screen and (min-width: 60em) {
 
+
+
+.contact img {
+    float: left;
+    width: 400px;
+    padding: 20px;
+    margin: 0px;
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#textLarge {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: red;
+    font-size: 2em;
+}
+
+#textMedium {
+    display: none;
+}
+
+#grid {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #grid div img:hover {
+    box-shadow: 0 0 0px black;
+  }
   
+  #grid div:hover {
+    box-shadow: 0 0 10px #333333;
+  }
+
+  #center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+      align-content: center;
+      width: 100%;
+  }
+
+  .towndata {
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.towndata img {
+width: 100%;
+float: none;
+}
+
+.towndata div {
+width: 100%;
+float: none;
+padding-bottom: 25px;
+}
+
+section.towndata:nth-of-type(3) img {
+width: 100%;
+float: none;
+}
+
+section.towndata:nth-of-type(3) div {
+width: 100%;
+    float: none;
+    padding-bottom: 10px;
+}
+
     
-    .contact img {
-        float: left;
-        width: 400px;
-        padding: 20px;
-        margin: 0px;
-    }
-    
-    footer {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
-    }
-    
-    #textLarge {
-        display: flex;
-        position: absolute;
-        top: 40px;
-        right: 40px;
-        color: red;
-        font-size: 2em;
-    }
-    
-    #textMedium {
-        display: none;
-    }
-    
-    #grid {
-        justify-content: center;
-        align-content: center;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-    
-      #grid div img:hover {
-        box-shadow: 0 0 0px black;
-      }
-      
-      #grid div:hover {
-        box-shadow: 0 0 10px #333333;
-      }
-    
-      #center {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          justify-content: space-between;
-          align-content: center;
-          width: 100%;
-      }}
+}

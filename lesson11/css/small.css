@@ -1,170 +1,247 @@
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+header img {
+max-width: 100px;
+margin: 15px;
+border-radius: 0 5px 0 5px;
+box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
+grid-column: 1;
+justify-self: end;
+}
+
+#textSmall {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  color: red;
+  font-size: 2em;
+}
+
+#textMedium, #textLarge {
+  display: none;
+}
+
+header div {
+  grid-column: 2;
+  justify-self: start;
+  align-self: center;
+}
+
+header {
+background: #7c8483;
+}
+
+footer {
+background: #7c8483;
+display: flex;
+flex-flow: column;
+align-items: center;
+justify-content: center;
+padding: 10px;
+font-size: 1rem;
+margin: 0 auto;
+}
+header{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+  color: #982649;
+}
+
+main {
+max-width: 767px;
+margin: 0 auto;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+h2 {
+color: #53f4ff;
+  text-align: center;
+
+}
+
+nav {
+background-color: #60b2e5;
+text-align: center;
+box-shadow: 0 2px 5px grey;
+margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  max-width:767px;
+  
+  }
+
+.navList li:first-child {
+display: block; 
+}
+
+.navList li {
+display: none;
+}
+
+nav li a {
+display: block;
+text-align: center;
+padding: 0.75rem;
+text-decoration: none;
+font-size: 1rem;
+  color: #982649;
+
+}
+
+nav a:hover {
+background-color: #982649;
+color: #53f4ff;
 }
 
 .navList .active {
 color: black;
 }
 
-header img {
-    max-width: 100px;
-    margin: 15px;
-    border-radius: 0 5px 0 5px;
-   box-shadow: 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
-
-  }
-  .five-day{
-    margin: auto;
-   width: 50%;
-   border: 3px solid;
-   padding: 10px;
- }
- 
-header,
-  footer {
-  background: #7c8483;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  font-size: 1rem;
-  box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
-  margin: 1rem auto;
-}
-header{
-    color: #982649;
-}
-
-header,
-nav,
-main,
-footer {
-  max-width: 767px;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  color: #53f4ff;
-    text-align: center;
-
-}
-
-nav {
-  background-color: #60b2e5;
-  text-align: center;
-  box-shadow: 0 2px 5px grey;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navList li:first-child {
-  display: block; 
-}
-
-.navList li {
-  display: none;
-}
-
-nav li a {
-  display: block;
-  text-align: center;
-  padding: 0.75rem;
-  text-decoration: none;
-  font-size: 1rem;
-    color: #982649;
-
-}
-
-nav a:hover {
-  background-color: #982649;
-  color: #53f4ff;
-}
-
 .responsive li {
-  display: block;
+display: block;
 
 }
 
 .five-day {
-  display:none;
+display:none;
 }
 
 .herodiv {
-  position: relative;
+position: relative;
 }
 
 .herodiv img {
-  position: relative;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
+position: relative;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
 }
 
 .weathersummary {
-  position:absolute;
-  border-style: solid;
-  top: 40px;
-  left: 30px;
-  background-color: rgba(147, 55, 84, .6);
-  font-size: 1rem;
-  padding: .75em;
+position:absolute;
+border-style: solid;
+top: 40px;
+left: 30px;
+background-color: rgba(147, 55, 84, .6);
+font-size: 1rem;
+padding: .75em;
+margin: auto;
+box-shadow: 0 0 30px;
+}
+
+#friday {
+  background-color: #60b2e5;
+  grid-column-start: 1;
+  grid-column-end: -1;
   margin: auto;
-  box-shadow: 0 0 30px;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-   text-align: center;
-  font-size: 0.8rem;
+
+main article {
+margin: .75rem;
+border-style:outset;
+ border-width: .15rem;
+ border-color: #dee7e7;
+padding: 0 1rem;
+background: #60b2e5;
+overflow: hidden;
 }
 
-main .article {
-  margin: .75rem;
-  border-style:outset;
-   border-width: .15rem;
-   border-color: #dee7e7;
-  padding: 0 1rem;
-  background: -webkit-linear-gradient(top, #60b2e5 0%,#90d5e6 60%,#f7fbfc 100%);
-
-}
 main img {
-  max-width: 767px;
-  display: flex;
-  margin: 1rem;
-    vertical-align: center;
+  display: block;
+max-width: 50%;
+float: right;
+padding: 5px;
+margin: 1rem;
+
 }
+
+.article {
+background-color: #53f4ff;
+}
+
 .article img {
   max-width: 50%;
   padding: 15px;
 }
 
 .contact {
-  background-color: #7c8483;
+background-color: #7c8483;
 }
 
 .contact img {
-  display: none;
-  }
-  
-  #friday {
-    background-color: #60b2e5;
-    grid-column-start: 1;
-    grid-column-end: -1;
-    margin: auto;
-  }
-  
-  footer {
-  flex: 0 1 100%;
-  
-  }
+display: none;
+}
+
+
+footer {
+flex: 0 1 100%;
+
+}
+
+.towndata {
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+.towndata h2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.towndata p {
+  padding-bottom: .5rem;
+}
+
+.towndata div p {
+  display: block;
+}
+
+.towndata img {
+  max-width: 100%;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px #444444;
+}
+
+
+.towndata {
+  background-color: #b4b4b4;
+  color: #4d585b;
+  padding: 20px;
+}
+
+section.towncard:nth-of-type(1) {
+  order: 3;
+}
+
+.motto {
+  font-size: .8rem;
+}
+
+
+#outputDiv {
+  display: inline-block;
+}
+
+#townpic {
+  overflow: hidden;
+  width: 100%;
+}
+
+#townpic img {
+  max-width: 100%;
+}
