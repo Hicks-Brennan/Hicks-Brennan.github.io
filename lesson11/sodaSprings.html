@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <title>Preston</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Soda Springs Page">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../Photos/favicon.ico">
+        <link rel="stylesheet" href="../CSS/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+
+    </head>
+    <body>
+        <header>
+                <div id="friday">
+                        <p>"Saturday = Preston Pancake in the Park! 9:00 a.m. Saturday at the city park pavilion."
+                        </p>
+                    </div>
+            <h1>Weather at a Tap</h1>
+            <img src="images/Umbrella.png" alt="Weather Logo">
+          </header>
+          <nav>
+            <ul class="navList">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodaSprings.html" class="active">Soda Springs</a></li>
+                <li><a href="fishHaven.html">Fish Haven</a></li>
+                <li><a href="stormCenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            </nav>
+            <main>
+                <h1 class="heading">Preston Idaho</h1>
+                <div class="herodiv">
+                    <img src="images/idaho-landscape-mountains-1694642.jpg">
+                    <section class="weathersummary">
+                            <h3><u>Weather Summary</u></h3>
+                            <p>Current: <span id="current">Sunny</span></p>
+                            <p>Temperature: <span id="temperature">45</span></p>
+                            <p>Wind Chill: </p><div id="outputDiv"></div>
+                            <p>Humidity: <span id="humidity">15%</span></p>
+                            <p>Wind Speed: <span id="wind">5 mph</span></p>
+                        </section>
+
+                    <div class="five-day">
+                        <table>
+                            <thead>
+                                <tr>
+                                        <th class="days">
+                                            <span id="weekday1">Sat</span></th>
+                                        <th class="days">
+                                            <span id="weekday2">Sun</span>
+                                        </th>
+                                        <th c;ass="days">
+                                            <span id="weekday3">Mon</span>    
+                                        </th>
+                                        <th class="days">
+                                            <span id="weekday4">Tues</span>
+                                        </th>
+                                        <th class="days">
+                                            <span id="weekday5">Wed</span>
+                                        </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img id="day1" src="images/partly_cloudy.png" alt="cloudy icon">
+                                        <span id="day1temp">55</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day2"src="images/rain.png" alt="rain icon">
+                                        <span id="day2temp">48</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day3" src="images/sun.png" alt="sun icon">
+                                        <span id="day3temp">65</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day4" src="images/partly_cloudy.png" alt="partly cloudy">
+                                        <span id="day4temp">50</span>"° F"
+                                    </td>
+                                    <td>
+                                        <img id="day5" src="images/sun.png" alt="sun icon">
+                                        <span id="day5temp">70</span>"° F"
+                                    </td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="article">
+                        <h3>Rural Idaho Town Seeks to Turn Film's Cult Status Into Prosperity</h3>
+                        <img src="images/big-j-s.jpg">
+
+                        
+                        <p>The Big J Burger on State Street here could hardly be mistaken for a hip Hollywood club. But on Saturday afternoon, a 16-year-old wearing moon boots and a T-shirt with the slogan "Vote for Pedro" jumped out of his seat and began mixing it up on an improvised dance floor. With a boom box blaring behind him, he shimmied between the restaurant's tables to the 1999 dance hit "Canned Heat" while more than 100 people whooped and cheered.
+
+                                The dancer, Bryan Demke, from Fort Worth, was recreating a pivotal moment from the 2004 cult movie "Napoleon Dynamite" which was filmed in Preston. And the crowd attending the second annual Napoleon Dynamite festival loved it. "You rock!" shouted a young girl, raising her cellphone to take a picture. "I love you, Napoleon!" added another, blowing the dancer a kiss.
+                                
+                                "I thought the movie was stupid," said a smiling Craig Smith, who showed up with his brother Gordon and teenage son Kyle. "But that kid is killing me."
+                                
+                                More than 300 people traveled from as far away as California and Connecticut for the chance to embrace their own inner Napoleon. The movie, written by the husband and wife team of Jared and Jerusha Hess, was directed by Mr. Hess, a native of Preston who lives in Salt Lake City. Now Preston, with a population of 5,000 in the mostly rural county, hopes to capitalize on the film's cult status.</p>
+                    </div>
+
+
+                    <footer>
+                            <div id="center">
+                            <div class="contact">
+                                <img src="images/preston_map.png" alt="Preston Map">
+                            </div>
+                                <div class="info">
+                                <h2>Weather At a Tap</h2>
+                                    <p>Address: 125 Hemmingway Rd. Preston, ID</p>
+                                    <p>Phone Number: 208-555-1234</p>
+                                    <p>weatheratatap@idaho.gov.us</p>
+                                </div>
+                                </div>
+                                
+                        
+                                <p>&copy; <span id="currentYear"></span> | Brennan Hicks | <span id="lastUpdated"></span></p>
+        
+                        </footer>
+        <script src="js/java.js"></script>
+        <script src="js/weatherAPI.js"></script>
+    </body>
+    </html>
