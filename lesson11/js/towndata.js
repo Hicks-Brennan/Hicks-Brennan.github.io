@@ -41,7 +41,7 @@ fetch(requestURL)
         block.appendChild(annualrain);
             
         
-        document.querySelector('div.towndata').appendChild(card);
+        document.querySelector('div.townsdata').appendChild(card);
     }
   }
 });

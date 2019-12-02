@@ -189,7 +189,7 @@ flex: 0 1 100%;
 
 }
 
-.towndata {
+.townsdata {
   margin: auto;
   padding: 40px;
   text-align: center;
@@ -207,7 +207,7 @@ flex: 0 1 100%;
   padding-bottom: .5rem;
 }
 
-.towndata div p {
+.townsdata div p {
   display: block;
 }
 

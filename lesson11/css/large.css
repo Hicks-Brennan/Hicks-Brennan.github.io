@@ -57,12 +57,12 @@ footer {
     grid-template-columns: 1fr 1fr 1fr; 
 }
 
-.towndata img {
+.townsdata img {
 width: 100%;
 float: none;
 }
 
-.towndata div {
+.townsdata div {
 width: 100%;
 float: none;
 padding-bottom: 25px;
