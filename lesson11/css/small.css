@@ -224,7 +224,7 @@ flex: 0 1 100%;
   padding: 20px;
 }
 
-section.towncard:nth-of-type(1) {
+section.towndata:nth-of-type(1) {
   order: 3;
 }
 
