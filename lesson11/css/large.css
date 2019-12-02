@@ -53,7 +53,7 @@ footer {
       width: 100%;
   }
 
-  .towndata {
+  .townsdata {
     grid-template-columns: 1fr 1fr 1fr; 
 }
 

@@ -52,13 +52,13 @@
     grid-template-columns: 1fr;
 }
 
-.towndata img {
+.townsdata img {
 width: 50%;
 float: left;
 margin: auto;
 }
 
-.towndata div {
+.townsdata div {
 width: 50%;
 float: right;
 margin: auto;
