@@ -18,7 +18,9 @@
     margin: auto;
 }
 
-
+.artcle img{
+    float: right;
+}
     
 .contact img {
     display: flex;
