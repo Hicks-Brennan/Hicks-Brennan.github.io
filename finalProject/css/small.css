@@ -1,5 +1,25 @@
 body {
     background-color: #584d3d;
+    font-family: 'Oswald', sans-serif;
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+p {
+   font-family: 'Gelasio', serif;
+}
+
+header, header img {
+    max-width: 767px;
+    color: #fefcfd;
+}
+
+
+
+header h2 {
+    text-align: end;
+    padding: 0px;
+    font-size: .75em
 }
 
 nav {
@@ -49,6 +69,14 @@ nav {
     
     }
 
+    .callButton {
+        background-color: #fefcfd;
+        text-decoration: none;
+        color: #5d5d81;
+        border: solid;
+        margin: .5px;
+
+    }
 
 
 
