@@ -25,14 +25,113 @@
                         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="temple.html">Temple</a></li>
-                        <li><a href="reservation.html" class="active">Reservation</a></li>
+                        <li class="active"><a href="reservation.html">Reservation</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                     </nav>
-              <main>
+                    <div class="containerReservation">
 
-              </main>
+                        <!-- Title -->
+                        <div id="reservationTitle">
+                            <h2 class="pageTitle">Make a Reservation</h2>
+                        </div>
+                
+                        <!-- Reservation Form -->
+                        <div class="reservationFormWrapper">
+                            <form class="reservationForm" action="#" method="get">
+                                <div id="reservationInputTop">
+                
+                                    <div id="upperUpper">
+                                        <!-- location -->
+                                        <div id="locationReservation">
+                                            <label id="locationLbl" for="resLocation">Location </label>
+                                            <select name="location" id="resLocation"  class="locationArea">
+                                                <option class="resLoc" disabled selected value>Select a location...</option>
+                                                <option class="resOpt" value="Logan Utah">Logan Utah</option>
+                                                <option class="resOpt" value="Mesa Arizona">Mesa Arizona</option>
+                                                <option class="resOpt" value="St George Utah">St. George Utah</option>
+                                                <option class="resOpt" value="Newport Beach California">Newport Beach California</option>
+                                                <option class="resOpt" value="Manhattan New York">Manhattan New York</option>
+                                            </select>
+                                        </div>
+                
+                                        <!-- date -->
+                                        <div id="checkIn">
+                                            <label id="dateInLbl" for="dateIn">Check in: </label>
+                                            <input id="dateIn" name="date" type="date" min="2019-12-20" max="2021-12-20" class="input">
+                                        </div>
+                                        <div id="checkOut">
+                                            <label id="dateOutLbl" for="dateOut">Check out: </label>
+                                            <input id="dateOut" name="date" type="date" min="2019-12-21" max="2021-12-30" class="input">
+                                        </div>
+                
+                                        <!-- number and types of rooms -->
+                                        <div id="roomsReservation">
+                                            <label id="roomLbl" for="roomType">Room Type </label>
+                                            <input list="roomTypeList" id="roomType" class="typeArea" placeholder="Please Select">
+                                            <datalist id="roomTypeList">
+                                                <option class="typeOpt" value="Suite"></option>
+                                                <option class="typeOpt" value="King"></option>
+                                                <option class="typeOpt" value="Queen"></option>
+                                                <option class="typeOpt" value="Single"></option>
+                                                <option class="typeOpt" value="Double"></option>
+                                            </datalist>
+                                        </div>
+                                    </div>
+                
+                                    <div id="fullName">
+                                        <!-- full name -->
+                                        <div id="nameReservation">
+                                            <label id="nameLbl" for="name">Full Name</label>
+                                            <input id="name" type="text" name="fullname" class="input" placeholder="Joseph Smith" pattern="[A-Za-z, ' ']{5,}"
+                                                minlength=5 required>
+                
+                                        </div>
+                
+                                        <!-- email -->
+                                        <div id="emailReservation">
+                                            <label id="emailLbl" for="email">email</label>
+                                            <input id="email" type="email" class="input" name="email" placeholder="email@yourmail.com"
+                                                required>
+                                        </div>
+                
+                                        <!-- phone -->
+                                        <div id="phoneReservation">
+                                            <label id="phoneLbl" for="phone">Phone</label>
+                                            <input type="tel" class="input" id="phone" placeholder="123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                                                required>
+                                        </div>
+                
+                                        <!-- home state or country -->
+                                        <div id="homeReservation">
+                                            <label id="homeLbl" for="homeLoc">Home State or Country</label>
+                                            <input id="homeLoc" name="home" class="input" required>
+                                        </div>
+                                    </div>
+                
+                
+                
+                                </div>
+                
+                                <!-- Special accomodations / comments -->
+                                <div class="messageReservation">
+                                    <div>
+                                        <label id="commentLbl" for="message">Special Accomodations / Comments</label>
+                                        <textarea id="message" placeholder="Enter text here..."></textarea>
+                                    </div>
+                
+                                    <div>
+                                        <input type="submit" name="message" value="Make my Reservation!" class="btn" onclick="thanks()">
+                                    </div>
+                
+                                </div>
+                
+                            </form>
+                        </div>
+                
+                
+                    </div>
               <footer>
                 <div id="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197057195!2d-77.09772584914006!3d38.983251779457184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576779442538!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
