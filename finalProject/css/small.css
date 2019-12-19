@@ -1,3 +1,59 @@
+body {
+    background-color: #584d3d;
+}
+
+nav {
+    background-color: #bfcde0;
+    text-align: center;
+    box-shadow: 0 2px 5px grey;
+    margin: 0 auto;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+      max-width:767px;
+      
+      }
+    
+    .navList li:first-child {
+    display: block; 
+    }
+    
+    .navList li {
+    display: none;
+    }
+    
+    nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1rem;
+      color: #584d3d;
+    
+    }
+    
+    nav a:hover {
+    background-color: #5d5d81;
+    }
+    
+    .navList .active {
+    color: #000505;
+    }
+    
+    .responsive li {
+    display: block;
+    
+    }
+
+
+
+
+
+
 .responsive li {
     display: block;
 }
