@@ -121,14 +121,27 @@ nav {
 }
 
 .amenities h3, .amenities li {
-    font-size: 1em;
-    color: #584d3d;
 
-    
+    color: #584d3d;    
+}
+
+.amenities h3 {
+    font-size: 1.5em;
+    text-decoration:underline;
 }
 
 .amenities li {
         list-style-type: none;
         display: absolute;
         margin-left: -2.5em;
+        font-size: .9em;
+}
+
+.contactInfo p {
+    color: #bfcde0;
+    
+}
+
+.map {
+    display: none;
 }

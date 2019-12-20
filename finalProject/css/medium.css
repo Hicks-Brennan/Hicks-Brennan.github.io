@@ -19,4 +19,8 @@
         float: right;
         margin: 5px;
     }
+    .contactInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
