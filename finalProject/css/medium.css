@@ -51,6 +51,10 @@
         max-width: 100%;
     }
 
+    .reception img, .missionaries img {
+        max-width: 75%;
+    }
+
     .templeMain img{
         display: flex;
         max-width: 75%;

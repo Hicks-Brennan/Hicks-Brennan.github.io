@@ -142,7 +142,176 @@ nav {
     display: none;
 }
 
+body {
+    background-color: #584d3d;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
 
+a:visited {
+    text-decoration: none;
+
+}
+
+p {
+   font-family: 'Gelasio', serif;
+}
+
+header, header img {
+    color: #fefcfd;
+}
+
+
+
+header h2 {
+    text-align: end;
+    padding: 0px;
+    font-size: .75em;
+    max-width: 767px;
+}
+
+nav {
+    background-color: #bfcde0;
+    text-align: center;
+    box-shadow: 0 2px 5px grey;
+    margin: 0 auto;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+      max-width:767px;
+      
+      }
+    
+    .navList li:first-child {
+    display: block; 
+    }
+    
+    .navList li {
+    display: none;
+    }
+    
+    nav li a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1rem;
+      color: #584d3d;
+    
+    }
+    
+    nav a:hover {
+    background-color: #5d5d81;
+    }
+    
+    .navList .active {
+    color: #000505;
+    }
+    
+    .responsive li {
+    display: block;
+    
+    }
+
+    .callButton {
+        display: inline-block;
+        background-color: #fefcfd;
+        border: solid black;
+        border-width: 2px;
+        margin: 5px 0px 5px 0px;
+        width: auto;
+}
+
+    .callButton a {
+        text-decoration: none;
+        color: #5d5d81;
+        font-size: 2em;
+        }
+
+.article {
+    border: solid;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #5d5d81;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.articleImg{
+    display:none;
+}
+
+.amenities {
+    background-color: #bfcde0;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid;
+    box-shadow: 0 0 5px;
+
+}
+
+.amenities img {
+    display: none;
+}
+
+.amenities h3, .amenities li {
+
+    color: #584d3d;    
+}
+
+.amenities h3 {
+    font-size: 1.5em;
+    text-decoration:underline;
+}
+
+.amenities li {
+        list-style-type: none;
+        margin-left: -2.5em;
+        font-size: .9em;
+}
+
+.contactInfo p {
+    color: #bfcde0;
+    
+}
+
+.map {
+    display: none;
+}
+
+
+.templeMain img {
+    display: none;
+}
+
+.templeMain div {
+    margin: 15px auto;
+    border: solid;
+    max-width: 75%; 
+    background-color: #5d5d81;    
+}
+
+.reception, .missionaries {
+    border: solid;
+    margin: 5px;
+    background-color: #fefcfd;
+}
+
+.reception img, .missionaries img {
+    display: none;
+}
+
+.reception li, .missionaries li {
+    list-style-type: none;
+    margin-right: 5%;
+}
 .templeMain img {
     display: none;
 }
