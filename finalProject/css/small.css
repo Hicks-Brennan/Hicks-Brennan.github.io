@@ -142,3 +142,14 @@ nav {
     display: none;
 }
 
+
+.templeMain img {
+    display: none;
+}
+
+.templeMain div {
+    margin: 15px auto;
+    border: solid;
+    max-width: 75%; 
+    background-color: #5d5d81;    
+}

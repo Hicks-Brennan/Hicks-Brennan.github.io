@@ -49,4 +49,12 @@
             max-width: 85%;
             margin-right: 7%;
     }
+
+    .templeMain {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
 }
