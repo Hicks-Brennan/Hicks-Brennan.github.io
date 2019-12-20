@@ -33,13 +33,14 @@
         grid-column: 2;
         grid-row: 2;
         margin-left: auto;
-        margin-top: 20%;
+        margin-top%;
     
     }
 
     .content {
         grid-column: 1;
         grid-row: 2;
+        margin-top: -25%;
     }
 
     .amenities {
