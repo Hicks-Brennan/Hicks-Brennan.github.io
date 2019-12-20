@@ -21,13 +21,13 @@
     height:auto;
 }
 
-    .amenities img {
-        max-width: 250px;
-        display: block;
-        margin: 5px;
-    }
+.amenities img {
+    max-width: 75%;
+    display: block;
+    margin: 5px auto;
+}
     .contactInfo {
-        margin: 0 auto;
+        margin: 10px auto;
         max-width: 767px;
         display: grid;
         grid-template-columns: 1fr 1fr;
