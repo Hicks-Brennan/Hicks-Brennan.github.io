@@ -1,7 +1,6 @@
 body {
     background-color: #584d3d;
     font-family: 'Oswald', sans-serif;
-    max-width: 767px;
     margin: 0 auto;
     text-align: center;
 }
@@ -16,7 +15,6 @@ p {
 }
 
 header, header img {
-    max-width: 767px;
     color: #fefcfd;
 }
 
@@ -25,7 +23,8 @@ header, header img {
 header h2 {
     text-align: end;
     padding: 0px;
-    font-size: .75em
+    font-size: .75em;
+    max-width: 767px;
 }
 
 nav {
@@ -100,10 +99,8 @@ nav {
     box-shadow: 0 0 10px;
 }
 
-.articleImg {
-    box-shadow: 0 0 10px 5px darkgrey;
-    max-width: 100%;
-    height:auto;
+.articleImg{
+    display:none;
 }
 
 .amenities {
@@ -145,3 +142,4 @@ nav {
 .map {
     display: none;
 }
+

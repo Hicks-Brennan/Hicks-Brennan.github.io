@@ -13,6 +13,14 @@
         flex: 1 1 100%;
     }
 
+.articleImg {
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px darkgrey;
+    max-width: 100%;
+    height:auto;
+}
+
     .amenities img {
         max-width: 250px;
         display: flex;
@@ -20,11 +28,22 @@
         margin: 5px;
     }
     .contactInfo {
+        margin: 0 auto;
+        max-width: 767px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         border: solid;
         box-shadow: 0 0 5px grey;
+        align-content:center;
     }
+
+    .contact{
+        grid-column: 2;
+        align-self: center;
+        padding: 5px;
+       
+
+     }
 
     .map {
         display: block;
