@@ -73,9 +73,9 @@ nav {
         text-decoration: none;
         color: #5d5d81;
         border: solid black;
-        border-width: 5px;
+        border-width: 2px;
         display: flex;
-        margin: 5px 0px 5px; 0px;
+        margin: 5px 0px 5px 0px;
         }
 
 .article {
