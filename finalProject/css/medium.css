@@ -63,4 +63,8 @@
         margin: 0 auto;
        
     }
+
+    .article {
+        margin: 15px auto;
+    }
 }
