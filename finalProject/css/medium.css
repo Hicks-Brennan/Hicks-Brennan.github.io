@@ -23,8 +23,7 @@
 
     .amenities img {
         max-width: 250px;
-        display: flex;
-        float: right;
+        display: block;
         margin: 5px;
     }
     .contactInfo {
