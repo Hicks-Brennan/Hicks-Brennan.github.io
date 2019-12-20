@@ -68,17 +68,31 @@ nav {
     display: block;
     
     }
-
     .callButton {
         background-color: #fefcfd;
         text-decoration: none;
         color: #5d5d81;
-        border: solid;
-        margin: .5px;
+        border: solid black;
+        border-width: 5px;
+        display: flex;
+        margin: 5px 0px 5px; 0px;
+        }
 
-    }
+.article {
+    border: solid;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #5d5d81;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
 
-
+.articleImg {
+    box-shadow: 0 0 10px 5px darkgrey;
+    max-width: 100%;
+    height:auto;
+}
 
 
 
