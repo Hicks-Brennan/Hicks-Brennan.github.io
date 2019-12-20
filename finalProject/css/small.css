@@ -116,9 +116,19 @@ nav {
 
 }
 
+.amenities img {
+    display: none;
+}
+
 .amenities h3, .amenities li {
     font-size: 1em;
     color: #584d3d;
-    list-style-type: none;
+
     
+}
+
+.amenities li {
+        list-style-type: none;
+        display: absolute;
+        margin-left: -2.5em;
 }

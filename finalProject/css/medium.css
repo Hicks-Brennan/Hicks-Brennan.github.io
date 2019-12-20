@@ -12,4 +12,11 @@
         display: block;
         flex: 1 1 100%;
     }
+
+    .amenities img {
+        max-width: 250px;
+        display: flex;
+        float: right;
+        margin: 5px;
+    }
 }
