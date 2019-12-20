@@ -22,5 +22,13 @@
     .contactInfo {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        border: solid;
+        box-shadow: 0 0 5px grey;
+    }
+
+    .map {
+        display: block;
+        grid-column: 1;
+        max-width: 100%;
     }
 }
