@@ -3,6 +3,12 @@ body {
     font-family: 'Oswald', sans-serif;
     max-width: 767px;
     margin: 0 auto;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+
 }
 
 p {
@@ -68,14 +74,20 @@ nav {
     display: block;
     
     }
+
     .callButton {
+        display: inline-block;
         background-color: #fefcfd;
-        text-decoration: none;
-        color: #5d5d81;
         border: solid black;
         border-width: 2px;
-        display: flex;
         margin: 5px 0px 5px 0px;
+        width: auto;
+}
+
+    .callButton a {
+        text-decoration: none;
+        color: #5d5d81;
+        font-size: 2em;
         }
 
 .article {
@@ -94,8 +106,19 @@ nav {
     height:auto;
 }
 
+.amenities {
+    background-color: #bfcde0;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+    border: solid;
+    box-shadow: 0 0 5px;
 
+}
 
-.responsive li {
-    display: block;
+.amenities h3, .amenities li {
+    font-size: 1em;
+    color: #584d3d;
+    list-style-type: none;
+    
 }
