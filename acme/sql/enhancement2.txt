@@ -1,0 +1,11 @@
+INSERT INTO clients ( clientFirstname , clientLastname , clientEmail , clientPassword , comments) VALUES ( 'Tony' , 'Stark' , 'tony@starkent.com' , 'Iam1ronM@n' , 'I am the real Ironman');
+
+UPDATE clients SET clientLevel = 3 WHERE clientFirstname='Tony' AND clientLastname='Stark';
+
+UPDATE inventory SET invName = REPLACE( invName, 'Nylon', 'Climbing'),
+    invDescription = REPLACE(invDescription, 'nylon', 'climbing')
+     WHERE invName LIKE '%Nylon%';
+
+SELECT inventory.invName, categories.categoryName FROM inventory INNER JOIN categories ON categories.categoryId=inventory.categoryId WHERE categories.categoryId=3;
+
+DELETE from inventory WHERE inventory.invName = 'Koenigsegg CCX Car'
